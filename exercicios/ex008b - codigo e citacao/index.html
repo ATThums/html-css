@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código-fonte</h2>
+    <p>O comando document.getElementById('teste') é escrito em linguagem JavaScript</p>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
+    <H2>Exemplo código</H2>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é IMPAR')
+    print('Fim do programa')
+        </code><!-- Usar Tab ou Shift+Tab para avançar ou voltar as linhas-->
+    </pre><!--Encapsular em (pre) para manter a formatação de código-->
+    <h2>Citação</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <h2>Citação completas</h2>
+    <p>Segundo william pereira alves, no seu livro HTML & CSS Aprenda comom construir páginas web:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/HTML_CSS_Aprenda_como_construir_p%C3%A1ginas/_fJPEAAAQBAJ?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover"><!-- importante colocar o link de acesso, para que o site tenha a informação de onde foi tirada -->
+        É importante lembrar que o arquivo de imagem deve residir na mesma pasta em que se encontra o documento HTML. Se estiver em outro local, deve ser especificado o caminho completo do arquivo.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascating Stile Sheets">CSS</abbr>. Estou gostando</p><!--Abbr siglas-->
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p> <!--Usar bdo dir="rtl" inverte a ordem das frases-->
+</body>
+</html>

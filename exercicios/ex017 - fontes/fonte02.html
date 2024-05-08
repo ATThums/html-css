@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS 2</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif; /*Colocar sempre uma generica para que possa ser acessada em qualquer navegador (sans-serif, serif, monospace)*/
+            font-size: 16px;
+            /*
+            Medidas absolutas: cm, mm, in px, pt, pc
+            
+            Medidas Relativas: em, ex, rem, vw,vh, %
+            
+            Recomendação da w3c é usar 'em ou px'.*/
+        }
+
+        h1{ /*shorthands font - seguir essa ordem
+            -> font-style -> font-weight -> font-size -> font-family
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2{
+            font: bold 2em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab consequatur similique esse voluptate maxime repudiandae laboriosam vero mollitia autem aperiam labore numquam, sit aliquid totam repellat soluta laudantium assumenda error! Lorem ipsum dolor sit amet consectetur adipisicing elit. At nisi maiores illum, velit voluptas, aperiam debitis doloribus veniam amet molestias, laboriosam consequuntur laborum eveniet? Quisquam fugiat quo quam officiis quibusdam?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate excepturi culpa hic repudiandae ipsam magni, nesciunt cum reiciendis, libero sint dolor enim sed totam provident asperiores aspernatur laborum, quasi recusandae!</p>
+    <h2>Subtítulos do exercício</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla eos incidunt, aperiam amet reprehenderit soluta odio quis facilis rerum dolor? Quod culpa ab illum fuga, repellendus omnis. Ipsum, quo reprehenderit!</p>
+</body>
+</html>

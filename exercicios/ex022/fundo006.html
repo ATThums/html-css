@@ -3,19 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Docume</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh; /*Tamanho total da tela*/
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover; /*preenche a tela toda, mas pode cortar a imagem*/
+            background-repeat: repeat;
+            background-size: cover; /*preenche a tela toda, mas pode cortar a imagem
+            background-attachment: fixed;*/
+
+            /*Shorthand - Backgroung
+            color > image > position > repeat > [size] > attachment*/
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -29,7 +35,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eos culpa rerum! Nesciunt, illum et veritatis, velit aspernatur in asperiores praesentium, temporibus optio nam earum quam. Saepe, asperiores. Harum, explicabo. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod alias at aperiam molestiae temporibus eligendi! Laudantium illum fugiat sint, alias earum quidem animi doloribus asperiores quia fugit reprehenderit aliquam nam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error ducimus magni impedit quibusdam tempore fuga accusantium voluptatibus expedita dolorum, excepturi quam sunt natus illo quod fugit officiis delectus? Velit, tempora.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eos culpa rerum! Nesciunt, illum et veritatis, velit aspernatur in asperiores praesentium, temporibus optio nam earum quam. Saepe, asperiores. Harum, explicabo. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod alias at aperiam molestiae temporibus eligendi! Laudantium illum fugiat sint, alias earum quidem animi doloribus asperiores quia fugit reprehenderit aliquam nam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error ducimus magni impedit quibusdam tempore fuga accusantium voluptatibus expedita dolorum, excepturi quam sunt natus illo quod fugit officiis delectus? Velit, tempora.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eos culpa rerum! Nesciunt, illum et veritatis, velit aspernatur in asperiores praesentium, temporibus optio nam earum quam. Saepe, asperiores. Harum, explicabo. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod alias at aperiam molestiae temporibus eligendi! Laudantium illum fugiat sint, alias earum quidem animi doloribus asperiores quia fugit reprehenderit aliquam nam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error ducimus magni impedit quibusdam tempore fuga accusantium voluptatibus expedita dolorum, excepturi quam sunt natus illo quod fugit officiis delectus? Velit, tempora.</p>
-        
+
     </main>
 </body>
 </html>

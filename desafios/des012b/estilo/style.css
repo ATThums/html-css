@@ -10,83 +10,65 @@
     --fonte-texto: 'Sriracha', sans-serif;
 }
 
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
 
-header{
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
     background-color: black;
     color: white;
     text-align: center;
-    size: 100%;
 }
 
-header > h1{
-    display: inline-block;
-    font-family: var(--fonte-destaque);
-    font-size: 127px;
-    font-variant: small-caps;
+header > h1 {
     padding-top: 50px;
+    font-variant: small-caps;
 }
 
-header > p{
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: 16px;
-    text-align: center;
+header > p {
     padding-bottom: 50px;
 }
 
-.externo{
-    font-weight: bold;
-    text-decoration: none;
+header a, footer a {
     color: white;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
-.externo:hover{
+header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
-section{
-    padding-top: 10vh; 
-    padding-bottom: 10vh;  
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
     padding-left: 30px;
 }
 
-section p{
-    font-family: var(--fonte-texto);     
-    padding-bottom: 5vh;  
-    font-size: 44px;
-    width: auto;
+section.normal {
+    background-color: white;
+    color: black;
 }
 
-p.img{
-    display: inline-block;
+section.imagem {
+    background-color: rgb(89, 89, 89));
     color: white;
-    background-color: rgba(0, 0, 0, 0.458);
-    padding: 5px;
 }
 
-#q1 {    
-    background-color: rgba(0, 0, 0, 0.396);
-    background-position: left top;
-    background-image: url('../imagens/background001.jpg');
-    background-size: cover;
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.36);
 }
-
-#q2{
-    background-color: rgba(0, 0, 0, 0.396);
-    background-position: left top;
-    background-image: url('../imagens/background002.jpg');
-    background-size: cover;
-}
-
-footer > p{
+footer {
     background-color: black;
     color: white;
     text-align: center;
-    font-family: var(--fonte-padrao);
-    font-size: 16px;
-    margin-top: 40px;
     padding: 10px;
 }

@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e vou gerenciar meus repositórios!
 
-<a href="https://atthums.github.io/html-css/exercicios/ex006/index.html">Executar o exercicio 07</a>
+<a href="https://atthums.github.io/html-css/exercicios/ex006/index.html">Executar o exercicio 06</a>

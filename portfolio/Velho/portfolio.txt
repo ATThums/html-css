@@ -14,14 +14,35 @@ Portfólio - Anderson Tonin Thums - Mostrar o que fez
 
 sobre
 
+E ai, tudo bem? Meu nome é Anderson Tonin Thums, sou um gaúcho apaixonado por jogos, cinema, música e muitas outras formas de arte.
+Sou Desenvolvedor de Jogos Digitais formado pela Universidade de Caxias do Sul (UCS). Durante meus três anos de faculdade, realizei diversos cursos complementares na área, incluindo Programação para Jogos Digitais (Nível Iniciante), Introdução ao Desenvolvimento de Jogos Mobile com Unity e Modelagem de Software para Desenvolvimento de Games e Apps. Como desenvolvedor, participei da Game Jam Plus 2022 e conquistei o 1º Lugar na etapa regional com o jogo Dodge Circle.
+Anteriormente, tive uma carreira de oito anos como militar do exército, onde desenvolvi habilidades como trabalho em equipe, gerenciamento de pessoas, planejamento e execução de atividades. Após isso trabalhei como gerente em um mercado, onde aprimorei as habilidades interpessoais e liderei até 60 pessoas que faziam parte da minha equipe.
+
+colocar CV, Diploma
 
 serviços
 
 
-jogos
+Minhas habilidades:
+- Unity
+- Blender (Modelagem, Rigging e Animação)
+- Gimp
+- Photoshop
+- Audacity
+- Visual Studio
+- GitHub
 
+jogos
+ links com itch.io
 
 links
+Jogos: https://andersontt.itch.io/
+Modelos 3D: https://sketchfab.com/AnderTThums
+GitHub: https://github.com/ATThums
+
+
 
 
 contatos e redes sociais
+discord
+

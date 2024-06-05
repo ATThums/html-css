@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Share+Tech&display=swap');
+
+/*Variaveis de fonte*/
+:root {
+    --fonte1: Verdana, Helvetica, sans-serif;
+    --fonte2: 'Share Tech', cursive, Verdana;
+    --fonte3: 'Play', sans-serif;
+}
+
+
+/*Estilo geral*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*Configurações do Body*/
+body{
+    background-color: black;
+    height: 100vh;    
+}
+
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/*Estilo do Cabecalho*/
+header {
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: rgba(120, 120, 120, 0.986);
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover {
+    color: white;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .button-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: red;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .button-contato button:hover {
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.793);
+}
+
+/*Estilo do topo do site*/
+
+
+

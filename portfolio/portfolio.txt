@@ -24,11 +24,16 @@ serviços
 
 
 Minhas habilidades:
+games
 - Unity
+Modelos 3d
 - Blender (Modelagem, Rigging e Animação)
+Ilustração
 - Gimp
 - Photoshop
+Audio
 - Audacity
+Code
 - Visual Studio
 - GitHub
 

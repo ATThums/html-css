@@ -226,6 +226,14 @@ section.sobre .flex{
     text-align: justify;
 }
 
+.sobre .txt-sobre h2 {
+    text-align: center;
+}
+
+.img-sobre {
+    text-align: center;
+}
+
 /*Estilo do portfólio*/
 section.portfolio {
     padding: 80px 4%;

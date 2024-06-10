@@ -286,6 +286,11 @@ section.portfolio .flex {
 /*Estllo Formulario*/
 section.formulario {
     padding: 80px 4%;
+    box-shadow: inset 6px 6px 40px 0px red;
+    background-image: url('../imagens/background01.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 form {

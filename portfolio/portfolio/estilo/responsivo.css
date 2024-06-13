@@ -73,6 +73,11 @@
         width: 100%;
     }
 
+    /*Formulário*/
+    section.formulario {
+        background-position: left center;
+    }
+
     /*Footer*/
     footer .flex {
         gap: 30px;
@@ -176,6 +181,11 @@
         width: 100%;
         max-width: 360px;
         margin: 0 auto;
+    }
+
+    /*Formulário*/
+    section.formulario {
+        background-position: left center;
     }
 
     /*Footer*/

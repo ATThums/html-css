@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-@media screen and (min-width: 620px) and (max-width: 1060px) {
+@media screen and (min-width: 680px) and (max-width: 1060px) {
 
     /*Classes gerais*/
     .flex {
@@ -75,7 +75,8 @@
 
     /*Formulário*/
     section.formulario {
-        background-position: left center;
+        background-position: left center;        
+        background-attachment: scroll;
     }
 
     /*Footer*/
@@ -186,6 +187,7 @@
     /*Formulário*/
     section.formulario {
         background-position: left center;
+        background-attachment: scroll;
     }
 
     /*Footer*/

@@ -66,33 +66,33 @@ revelar.reveal('.efeito-nome-form',
 {
     duration: 1000,
     distance: '40px',
-    delay: 500
+    delay: 250
 })
 
 revelar.reveal('.efeito-email-form', 
 {
     duration: 1000,
     distance: '40px',
-    delay: 1000
+    delay: 500
 })
 
 revelar.reveal('.efeito-cel-form', 
 {
     duration: 1000,
     distance: '40px',
-    delay: 1500
+    delay: 750
 })
 
 revelar.reveal('.efeito-txt-form', 
 {
     duration: 1000,
     distance: '40px',
-    delay: 2000
+    delay: 1000
 })
 
 revelar.reveal('.efeito-btn-form', 
 {
     duration: 1000,
     distance: '40px',
-    delay: 2500
+    delay: 1250
 })

@@ -123,7 +123,7 @@ main {
 }
 
 section.topo-site {
-    padding: 40px 4%;
+    padding: 60px 4%;
 }
 
 section.topo-site .flex {
@@ -168,7 +168,7 @@ section.topo-site .flex {
 
 /*Estilo especialidades*/
 section.especialidades {
-    padding: 40px 4%;
+    padding: 60px 4%;
     text-align: center;
     margin: 40px auto;
 }
@@ -204,7 +204,7 @@ section.especialidades .flex {
 
 /*Estilo Sobre*/
 section.sobre {
-    padding: 40px 4%;
+    padding: 60px 4%;
     box-shadow: 0 0 40px 10px red;
 }
 
@@ -246,6 +246,7 @@ section.sobre .flex {
 section.portfolio {
     padding: 80px 4%;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 section.portfolio .flex {
@@ -254,7 +255,8 @@ section.portfolio .flex {
     margin-top: 60px;
 }
 
-.img-port {
+.img-port {    
+    resize: none;
     width: 340px;
     height: 440px;
     background-size: cover;

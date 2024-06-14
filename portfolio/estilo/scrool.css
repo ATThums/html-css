@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+.efeito-txt-topo, .efeito-img-topo, .titulo, .efeito-especialidades1, .efeito-especialidades2, .efeito-especialidades3, .efeito-img-sobre, .efeito-txt-sobre, .efeito-nome-form, .efeito-email-form, .efeito-cel-form, .efeito-txt-form, .efeito-btn-form {
+    visibility: hidden;
+}

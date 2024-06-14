@@ -170,6 +170,7 @@ section.topo-site .flex {
 section.especialidades {
     padding: 40px 4%;
     text-align: center;
+    margin: 40px auto;
 }
 
 section.especialidades .flex {
